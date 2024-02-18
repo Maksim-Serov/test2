@@ -1,0 +1,63 @@
+body {
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60px;
+}
+
+header a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.main-button {
+    background-color: #111B47;
+    color: #ffffff;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.buy-button {
+    min-width: 160px;
+}
+
+.hero {
+    background-image: url(/Users/maksim/Desktop/project/images/hero.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.hero-wraper {
+    padding-top: 250px;
+}
+
+.hero-content {
+    max-width: 540px;
+}
