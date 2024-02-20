@@ -98,3 +98,36 @@ header a:not(:last-child) {
     align-items: center;
 }
 
+.img-section-2 {
+    background-image: url(/Users/maksim/Desktop/project/images/photo%20secondary%20section.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.container-section-2 {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    height: 742px;
+}
+
+.section-2-content {
+    max-width: 540px;
+    max-height: 204px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #091133;
+  }
+
+  .subheading-in-line {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .subheading-section-2-content {
+    max-width: 255px;
+    max-height: 140px;
+  }
