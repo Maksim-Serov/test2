@@ -47,7 +47,7 @@ header a:not(:last-child) {
     min-width: 160px;
 }
 
-.white-button {
+.secondary-button {
     background-color: #fff;
     color: #091133;
     height: 37px;
@@ -127,7 +127,25 @@ h2 {
     align-items: center;
   }
 
-  .subheading-section-2-content {
+  .margin-left-45 {
+    margin-left: 45px;
+  }
+
+  .mini-block {
     max-width: 255px;
     max-height: 140px;
+  }
+
+  .mini-icon {
+    background-image: url(/Users/maksim/Desktop/project/images/mini%20icon.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  .padding-50 {
+    padding-top: 50px;
+  }
+
+  .padding-15 {
+    padding-top: 15px;
   }
